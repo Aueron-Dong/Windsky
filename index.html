@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>风险事件日历</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <header class="site-header">
+        <p class="eyebrow">市场观察</p>
+        <h1>风险事件日历</h1>
+        <p class="intro">关注可能影响市场的宏观与加密资产事件。</p>
+      </header>
+
+      <section id="today-section" aria-labelledby="today-heading">
+        <h2 id="today-heading">今日风险</h2>
+        <div id="today-status" role="status" aria-live="polite">正在加载事件数据…</div>
+        <div id="today-events" class="event-list"></div>
+      </section>
+
+      <section id="upcoming-section" aria-labelledby="upcoming-heading">
+        <h2 id="upcoming-heading">未来七天</h2>
+        <div id="upcoming-events" class="event-list"></div>
+      </section>
+
+      <p id="data-error" class="data-error" role="alert" hidden></p>
+    </main>
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

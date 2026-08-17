@@ -1,0 +1,181 @@
+:root {
+  color: #182033;
+  background: #f4f7fb;
+  font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+main {
+  width: min(100% - 32px, 960px);
+  margin: 0 auto;
+  padding: 40px 0 56px;
+}
+
+.site-header {
+  margin-bottom: 32px;
+}
+
+.eyebrow {
+  margin: 0 0 4px;
+  color: #52627c;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 8px;
+  font-size: clamp(2rem, 6vw, 3rem);
+  line-height: 1.15;
+}
+
+h2 {
+  margin-bottom: 16px;
+  font-size: 1.25rem;
+}
+
+.intro {
+  margin-bottom: 0;
+  color: #52627c;
+}
+
+section + section {
+  margin-top: 36px;
+}
+
+#today-status {
+  margin-bottom: 16px;
+  padding: 14px 16px;
+  border: 1px solid #cbd6e8;
+  border-radius: 12px;
+  background: #eaf0fa;
+  color: #243c66;
+  font-weight: 700;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.event-card {
+  display: flex;
+  flex: 1 1 280px;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid #dce3ee;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 5px 18px rgb(29 52 84 / 7%);
+}
+
+.event-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.event-card h3 {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.4;
+}
+
+.event-date,
+.event-times,
+.event-note {
+  margin: 0;
+}
+
+.event-date,
+.event-times {
+  color: #52627c;
+}
+
+.event-times {
+  display: grid;
+  gap: 4px;
+}
+
+.event-times p {
+  margin: 0;
+}
+
+.event-note {
+  padding-top: 12px;
+  border-top: 1px solid #edf0f5;
+  color: #3c4960;
+}
+
+.importance {
+  flex: 0 0 auto;
+  padding: 3px 8px;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.importance-high {
+  background: #bf303c;
+}
+
+.importance-medium {
+  background: #a86c00;
+}
+
+.importance-low {
+  background: #627084;
+}
+
+.data-error {
+  margin: 28px 0 0;
+  padding: 14px 16px;
+  border: 1px solid #e4afb4;
+  border-radius: 12px;
+  background: #fff0f1;
+  color: #a3212b;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  main {
+    width: min(100% - 24px, 960px);
+    padding-top: 28px;
+  }
+
+  .event-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .event-card {
+    padding: 16px;
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {"date":"2026-08-19","type":"FOMC","name":"FOMC 会议纪要公布","time_et":"14:00","importance":"high","note":"关注措辞变化"},
+  {"date":"2026-08-21","type":"OTHER","name":"全球 PMI 初值","time_et":"09:45","importance":"medium","note":""},
+  {"date":"2026-08-24","type":"BTC_EVENT","name":"比特币政策听证会","time_et":null,"importance":"high","note":"时间待官方确认"},
+  {"date":"2026-08-26","type":"OTHER","name":"美国7月核心PCE物价指数","time_et":"08:30","importance":"high","note":"美联储最关注的通胀指标，将影响9月FOMC定价"},
+  {"date":"2026-08-27","type":"POWELL_SPEECH","name":"Jackson Hole全球央行年会开幕（鲍威尔讲话）","time_et":null,"importance":"high","note":"历来是8月波动率高点，将定调9月路径"},
+  {"date":"2026-08-13","type":"PPI","name":"美国7月PPI","time_et":"08:30","importance":"medium","note":"CPI的领先指标，关注批发端价格是否传导至消费端"},
+  {"date":"2026-08-27","type":"GDP","name":"美国 GDP 修正值","time_et":"08:30","importance":"low","note":""}
+]
