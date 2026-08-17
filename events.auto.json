@@ -94,5 +94,173 @@
     "name": "Producer Price Index",
     "importance": "high",
     "note": "来源：美国劳工统计局（BLS）"
+  },
+  {
+    "date": "2026-09-16",
+    "time_et": "14:00",
+    "type": "FOMC",
+    "name": "FOMC 会议（September）",
+    "importance": "high",
+    "note": "来源：美联储（Federal Reserve）"
+  },
+  {
+    "date": "2026-10-28",
+    "time_et": "14:00",
+    "type": "FOMC",
+    "name": "FOMC 会议（October）",
+    "importance": "high",
+    "note": "来源：美联储（Federal Reserve）"
+  },
+  {
+    "date": "2026-12-09",
+    "time_et": "14:00",
+    "type": "FOMC",
+    "name": "FOMC 会议（December）",
+    "importance": "high",
+    "note": "来源：美联储（Federal Reserve）"
+  },
+  {
+    "date": "2027-01-27",
+    "time_et": "14:00",
+    "type": "FOMC",
+    "name": "FOMC 会议（January）",
+    "importance": "high",
+    "note": "来源：美联储（Federal Reserve）"
+  },
+  {
+    "date": "2027-03-17",
+    "time_et": "14:00",
+    "type": "FOMC",
+    "name": "FOMC 会议（March）",
+    "importance": "high",
+    "note": "来源：美联储（Federal Reserve）"
+  },
+  {
+    "date": "2027-04-28",
+    "time_et": "14:00",
+    "type": "FOMC",
+    "name": "FOMC 会议（April）",
+    "importance": "high",
+    "note": "来源：美联储（Federal Reserve）"
+  },
+  {
+    "date": "2027-06-09",
+    "time_et": "14:00",
+    "type": "FOMC",
+    "name": "FOMC 会议（June）",
+    "importance": "high",
+    "note": "来源：美联储（Federal Reserve）"
+  },
+  {
+    "date": "2027-07-28",
+    "time_et": "14:00",
+    "type": "FOMC",
+    "name": "FOMC 会议（July）",
+    "importance": "high",
+    "note": "来源：美联储（Federal Reserve）"
+  },
+  {
+    "date": "2027-09-15",
+    "time_et": "14:00",
+    "type": "FOMC",
+    "name": "FOMC 会议（September）",
+    "importance": "high",
+    "note": "来源：美联储（Federal Reserve）"
+  },
+  {
+    "date": "2027-10-27",
+    "time_et": "14:00",
+    "type": "FOMC",
+    "name": "FOMC 会议（October）",
+    "importance": "high",
+    "note": "来源：美联储（Federal Reserve）"
+  },
+  {
+    "date": "2027-12-08",
+    "time_et": "14:00",
+    "type": "FOMC",
+    "name": "FOMC 会议（December）",
+    "importance": "high",
+    "note": "来源：美联储（Federal Reserve）"
+  },
+  {
+    "date": "2026-08-26",
+    "time_et": "08:30",
+    "type": "GDP",
+    "name": "GDP (Second Estimate) and Corporate Profits, 2nd Quarter 2026",
+    "importance": "high",
+    "note": "来源：美国经济分析局（BEA）"
+  },
+  {
+    "date": "2026-08-26",
+    "time_et": "08:30",
+    "type": "OTHER",
+    "name": "PCE / Personal Income and Outlays, July 2026",
+    "importance": "high",
+    "note": "来源：美国经济分析局（BEA）"
+  },
+  {
+    "date": "2026-09-30",
+    "time_et": "08:30",
+    "type": "GDP",
+    "name": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026; State PCE, 2025",
+    "importance": "high",
+    "note": "来源：美国经济分析局（BEA）"
+  },
+  {
+    "date": "2026-09-30",
+    "time_et": "08:30",
+    "type": "OTHER",
+    "name": "PCE / Personal Income and Outlays, August 2026",
+    "importance": "high",
+    "note": "来源：美国经济分析局（BEA）"
+  },
+  {
+    "date": "2026-10-29",
+    "time_et": "08:30",
+    "type": "GDP",
+    "name": "GDP (Advance Estimate), 3rd Quarter 2026",
+    "importance": "high",
+    "note": "来源：美国经济分析局（BEA）"
+  },
+  {
+    "date": "2026-10-29",
+    "time_et": "08:30",
+    "type": "OTHER",
+    "name": "PCE / Personal Income and Outlays, September 2026",
+    "importance": "high",
+    "note": "来源：美国经济分析局（BEA）"
+  },
+  {
+    "date": "2026-11-25",
+    "time_et": "08:30",
+    "type": "GDP",
+    "name": "GDP (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
+    "importance": "high",
+    "note": "来源：美国经济分析局（BEA）"
+  },
+  {
+    "date": "2026-11-25",
+    "time_et": "08:30",
+    "type": "OTHER",
+    "name": "PCE / Personal Income and Outlays, October 2026",
+    "importance": "high",
+    "note": "来源：美国经济分析局（BEA）"
+  },
+  {
+    "date": "2026-12-23",
+    "time_et": "08:30",
+    "type": "GDP",
+    "name": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 3rd Quarter 2026",
+    "importance": "high",
+    "note": "来源：美国经济分析局（BEA）"
+  },
+  {
+    "date": "2026-12-23",
+    "time_et": "08:30",
+    "type": "OTHER",
+    "name": "PCE / Personal Income and Outlays, November 2026",
+    "importance": "high",
+    "note": "来源：美国经济分析局（BEA）"
   }
 ]
